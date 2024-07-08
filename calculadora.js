@@ -14,7 +14,7 @@ if  (isNaN(numero1) || isNaN(numero2)) {
         console.log("isso não é numero  tente novamente "); 
 
     // se o calculo estiver correto será feita as verificações dentro do 'else' 
-    }else {
+}else {
         // condicionais que fazem a verificação de qual calculo será realizado 
         if(operador === "+") {
         total = numero1 + numero2;
